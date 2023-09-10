@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    
+}
+
+body {
+    background-color: #0d1a2d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#box__container {
+    background-color: #15273f;
+    padding: 25px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+
+.img__principal {
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.subtitle {
+    font-size: 28px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+.des {
+    padding: 20px 0;
+    color: #7f95b4;
+    margin-bottom: 10px;
+}
+
+
+.flex__01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flex__01left, .flex__01right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.p__flex {
+    color: #2ed0d4;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.p__flex__right {
+    color: #768eac;
+
+}
+
+
+.bx {
+    background-color: #24364e;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+}
+
+
+.flex__02 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.img__avatar {
+    width: 38px;
+    border: 1px solid #a9b0bc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.p__flex02 {
+    color: #677d9a;
+}
+
+
+.p__flex02 span {
+    color: #b9c6d6;
+    margin-left: 5px;
+}
+
+
+
+
+@media (max-width:445px) {
+
+    * {
+        font-size: 16px;
+    }
+
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+
+    #box__container{
+        width: 350px;
+    }
+
+
+    .img__principal {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:360px) {
+
+    * {
+        font-size: 16px;
+    }
+
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+
+    #box__container{
+        width: 300px;
+    }
+
+
+    .img__principal {
+        width: 250px;
+    }
+}
+
+
+
+
+
+
